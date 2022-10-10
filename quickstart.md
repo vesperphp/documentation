@@ -1,6 +1,6 @@
 # Get started with Vesper
 
-Vesper uses Composer as a dependency and version manager. How to install Composer per project or system wide is [explained](https://getcomposer.org/doc/00-intro.md) very well on the composer website.
+Vesper uses [Composer](https://getcomposer.org/) as a dependency and version manager. How to install Composer per project or system wide is [explained](https://getcomposer.org/doc/00-intro.md) very well on the composer website.
 
 `composer new-project vesperphp/project {insert project name}`
 
