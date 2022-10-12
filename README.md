@@ -6,6 +6,12 @@ Welcome to Vesper PHP. This framework is aimed to be an easy to use and lightwei
 <a href="https://packagist.org/packages/vesperphp/elemental"><img src="https://img.shields.io/packagist/v/vesperphp/elemental?style=for-the-badge" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/vesperphp/elemental"><img src="https://img.shields.io/packagist/l/vesperphp/elemental?style=for-the-badge" alt="License"></a>
 
+## Getting started
+
+- Installation with Composer
+- Setting up your project
+- Walktrough
+
 ## Elemental 
 
 Elemental is the core of Vesper PHP. This folder can be updated in newer versions so making changes within these files is not recommended.
@@ -27,6 +33,13 @@ Every App needs a way to get from one page to the other. With [routes and paths]
 - [Flash](frontier/Flash.md)
 - [Glob](frontier/Glob.md)
 - [Hook](frontier/Hook.md)
+
+### Bulma
+
+- Basics of Bulma
+- Vesper additions
+- Modify variables
+- Building new files
 
 ### Sequel
 
