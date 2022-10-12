@@ -58,6 +58,14 @@ Every App needs a way to get from one page to the other. With [routes and paths]
 
 Email sending handler.
 
+### Interact
+
+- Basic admin panel usage
+- Adding navigation items
+- Adding routes
+- Adding hooks
+- Building your own admin pages
+
 ### Formality & Listify
 
 - Building a form
