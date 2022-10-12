@@ -20,26 +20,37 @@ Every App needs a way to get from one page to the other. With [routes and paths]
 
 ### Frontier
 
-[Frontier](Elemental/Frontier.md) is the simple yet elegant templating engine within Vesper PHP that allows you to use PHP in its [html templates](Elemental/Views.md). The template files are compiled into PHP files and cached in a separate folder. With its easy way of requesting the template and adding variables Frontier makes building websites quick really easy.
+[Frontier](frontier/Frontier.md) is the simple yet elegant templating engine within Vesper PHP that allows you to use PHP in its [html templates](frontier/Views.md). The template files are compiled into PHP files and cached in a separate folder. With its easy way of requesting the template and adding variables Frontier makes building websites quick really easy.
 
-- [Frontier](Elemental/Frontier.md)
-- [Templating](Elemental/Views.md)
-- [Flash](Elemental/Flash.md)
-- [Glob](Elemental/Glob.md)
-- [Hook](Elemental/Hook.md)
+- [Frontier](frontier/Frontier.md)
+- [Templating](frontier/Views.md)
+- [Flash](frontier/Flash.md)
+- [Glob](frontier/Glob.md)
+- [Hook](frontier/Hook.md)
 
 ### Sequel
 
-[Sequel](Elemental/Sequel/Introduction.md) is a one-stop database managing class to help get information quick and simple. And safe. It uses the PHP PDO class and prepared statements to interact with a MySQL database. No SQL writing required but if you need it, you can do that as well.
+[Sequel](sequel/Introduction.md) is a one-stop database managing class to help get information quick and simple. And safe. It uses the PHP PDO class and prepared statements to interact with a MySQL database. No SQL writing required but if you need it, you can do that as well.
 
-- [Introduction](Elemental/Sequel/Introduction.md)
-- [Select](Elemental/Sequel/Select.md), [Insert](Elemental/Sequel/Insert.md), [Update](Elemental/Sequel/Update.md), [Delete](Elemental/Sequel/Delete.md), [Model](Elemental/Sequel/Model.md).
-- [Pagination](Elemental/Sequel/Pagination.md)
-- [Tablier](Elemental/Sequel/Tablier.md)
+- [Introduction](sequel/readme.md)
+- [Select](sequel/Select.md) 
+- [Insert](sequel/Insert.md)
+- [Update](sequel/Update.md)
+- [Delete](sequel/Delete.md)
+- [Model](sequel/Model.md)
+- [Pagination](sequel/Pagination.md)
+- [Tablier](sequel/Tablier.md)
 
 ### Sendry
 
 Email sending handler.
+
+### Formality & Listify
+
+- Building a form
+- Form parameters
+- Building a list
+- List parameters
 
 ### Service Workers
 
