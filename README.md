@@ -24,56 +24,6 @@ Every App needs a way to get from one page to the other. With [routes and paths]
 - [Shield](elemental/Vault.md)
 - [Csrf protection](elemental/Csrf.md)
 
-### Frontier
-
-[Frontier](frontier/Frontier.md) is the simple yet elegant templating engine within Vesper PHP that allows you to use PHP in its [html templates](frontier/Views.md). The template files are compiled into PHP files and cached in a separate folder. With its easy way of requesting the template and adding variables Frontier makes building websites quick really easy.
-
-- [Frontier](frontier/Frontier.md)
-- [Templating](frontier/Views.md)
-- [Flash](frontier/Flash.md)
-- [Glob](frontier/Glob.md)
-- [Hook](frontier/Hook.md)
-
-### Bulma
-
-- Basics of Bulma
-- Vesper additions
-- Modify variables
-- Building new files
-
-### Sequel
-
-[Sequel](sequel/Introduction.md) is a one-stop database managing class to help get information quick and simple. And safe. It uses the PHP PDO class and prepared statements to interact with a MySQL database. No SQL writing required but if you need it, you can do that as well.
-
-- [Introduction](sequel/readme.md)
-- [Select](sequel/Select.md) 
-- [Insert](sequel/Insert.md)
-- [Update](sequel/Update.md)
-- [Delete](sequel/Delete.md)
-- [Model](sequel/Model.md)
-- [Pagination](sequel/Pagination.md)
-- [Tablier](sequel/Tablier.md)
-
-### Sendry
-
-Email sending handler.
-
-### Interact
-
-- Basic admin panel usage
-- Adding navigation items
-- Adding routes
-- Adding hooks
-- Building your own admin pages
-
-### Formality & Listify
-
-- Building a form
-- Form parameters
-- Building a list
-- List parameters
-
-### Service Workers
 
 A lot of things are reusable. We store these in the Service/Workers folder for easy access.
 
@@ -86,6 +36,63 @@ A lot of things are reusable. We store these in the Service/Workers folder for e
 - Config - how the config file works, elements explained and customisation options
 - [Global Variables](Variables/Globals.md)
 
+## Frontier
+
+[Frontier](frontier/Frontier.md) is the simple yet elegant templating engine within Vesper PHP that allows you to use PHP in its [html templates](frontier/Views.md). The template files are compiled into PHP files and cached in a separate folder. With its easy way of requesting the template and adding variables Frontier makes building websites quick really easy.
+
+- [Frontier](frontier/Frontier.md)
+- [Templating](frontier/Views.md)
+- [Flash](frontier/Flash.md)
+- [Glob](frontier/Glob.md)
+- [Hook](frontier/Hook.md)
+
+## Bulma
+
+- Basics of Bulma
+- Vesper additions
+- Modify variables
+- Building new files
+
+## Sequel
+
+[Sequel](sequel/Introduction.md) is a one-stop database managing class to help get information quick and simple. And safe. It uses the PHP PDO class and prepared statements to interact with a MySQL database. No SQL writing required but if you need it, you can do that as well.
+
+- [Introduction](sequel/readme.md)
+- [Select](sequel/Select.md) 
+- [Insert](sequel/Insert.md)
+- [Update](sequel/Update.md)
+- [Delete](sequel/Delete.md)
+- [Model](sequel/Model.md)
+- [Pagination](sequel/Pagination.md)
+- [Tablier](sequel/Tablier.md)
+
+## Sendry
+
+Email sending handler.
+
+## Interact
+
+- Basic admin panel usage
+- Adding navigation items
+- Adding routes
+- Adding hooks
+- Building your own admin pages
+
+## Formality & Listify
+
+- Building a form
+- Form parameters
+- Building a list
+- List parameters
+
+## Foundry (CLI)
+
+A basic command line tool to help you build up your Vesper-PHP app quickly. Let's get [started](Foundry/readme.md).
+
+- Table
+- Mock
+- Filler
+
 ## App 
 
 Where your app shines in customability. The App folder is for everything custom. This has room for controllers, models, filters, packages among other things.
@@ -93,14 +100,6 @@ Where your app shines in customability. The App folder is for everything custom.
 - Controllers & Models
 - Filters
 - Packages
-
-## Foundry
-
-A basic command line tool to help you build up your Vesper-PHP app quickly. Let's get [started](Foundry/readme.md).
-
-- Table
-- Mock
-- Filler
 
 
 ## About Vesper PHP
