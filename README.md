@@ -13,19 +13,13 @@ Welcome to Vesper PHP. This framework is aimed to be an easy to use and lightwei
 - Setting up your project
 - Walktrough
 
-## Elemental 
+### Elemental 
 
 [Elemental](elemental/readme.md) is the core of Vesper PHP. A lot of the main functionalities such as protective middleware via [Vault](elemental/Vault.md), configuration file access via [Config](elemental/Config.md) and being able to use clever [Pathing & Routing](elemental/Path.md) are gracefully handled by this package. 
 
-## Frontier
+### Frontier
 
 [Frontier](frontier/Frontier.md) is the simple yet elegant templating engine within Vesper PHP that allows you to use PHP in its [html templates](frontier/Views.md). The template files are compiled into PHP files and cached in a separate folder. With its easy way of requesting the template and adding variables Frontier makes building websites quick really easy.
-
-- [Frontier](frontier/Frontier.md)
-- [Templating](frontier/Views.md)
-- [Flash](frontier/Flash.md)
-- [Glob](frontier/Glob.md)
-- [Hook](frontier/Hook.md)
 
 ## Bulma
 
