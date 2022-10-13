@@ -21,7 +21,7 @@ Elemental is the core of Vesper PHP. This folder can be updated in newer version
 Every App needs a way to get from one page to the other. With [routes and paths](elemental/Path.md) you can set up a network of pages that do the things you need them to do. Not every page should always be accessable. And this is where [Vault](elemental/Vault.md) kicks in. Every part is customisable by using the App/Filters folder as a way to extend functionality. 
 
 - [Routes & Paths](elemental/Path.md) 
-- [Shield](elemental/Vault.md)
+- [Vault](elemental/Vault.md)
 - [Csrf protection](elemental/Csrf.md)
 
 
