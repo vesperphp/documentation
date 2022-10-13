@@ -15,7 +15,7 @@ Welcome to Vesper PHP. This framework is aimed to be an easy to use and lightwei
 
 ## Elemental 
 
-[Elemental](elemental/readme.md) is the core of Vesper PHP. This folder can be updated in newer versions so making changes within these files is not recommended.
+[Elemental](elemental/readme.md) is the core of Vesper PHP. A lot of the main functionalities such as Vault, Config and Routing are handled via this package. 
 
 ## Frontier
 
