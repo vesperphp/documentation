@@ -21,20 +21,28 @@ Welcome to Vesper PHP. This framework is aimed to be an easy to use and lightwei
 
 [Frontier](frontier/readme.md) is the simple yet elegant templating engine within Vesper PHP that allows you to use PHP in its [html templates](frontier/Views.md). The template files are compiled into PHP files and cached in a separate folder. With its easy way of requesting the template and adding variables Frontier makes building websites quick really easy.
 
+### Sequel
+
+[Sequel](sequel/readme.md) is a one-stop database managing class to help get information quick and simple. And safe. It uses the PHP PDO class and prepared statements to interact with a MySQL database. No SQL writing required but if you need it, you can do that as well. It also has a module for [pagination](sequel/Pagination.md) and a [table builder](sequel/Tablier.md).
+
+### Sendry
+
+Email sending handler.
+
+### Formality & Listify
+
+- Building a form
+- Form parameters
+- Building a list
+- List parameters
+- [Csrf protection](formality/Csrf.md)
+
 ## Bulma
 
 - Basics of Bulma
 - Vesper additions
 - Modify variables
 - Building new files
-
-## Sequel
-
-[Sequel](sequel/readme.md) is a one-stop database managing class to help get information quick and simple. And safe. It uses the PHP PDO class and prepared statements to interact with a MySQL database. No SQL writing required but if you need it, you can do that as well. It also has a module for [pagination](sequel/Pagination.md) and a [table builder](sequel/Tablier.md).
-
-## Sendry
-
-Email sending handler.
 
 ## Interact
 
@@ -44,13 +52,7 @@ Email sending handler.
 - Adding hooks
 - Building your own admin pages
 
-## Formality & Listify
 
-- Building a form
-- Form parameters
-- Building a list
-- List parameters
-- [Csrf protection](formality/Csrf.md)
 
 ## Foundry (CLI)
 
