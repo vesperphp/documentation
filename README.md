@@ -30,7 +30,7 @@ Welcome to Vesper PHP. This framework is aimed to be an easy to use and lightwei
 
 ## Sequel
 
-[Sequel](sequel/reame.md) is a one-stop database managing class to help get information quick and simple. And safe. It uses the PHP PDO class and prepared statements to interact with a MySQL database. No SQL writing required but if you need it, you can do that as well.
+[Sequel](sequel/readme.md) is a one-stop database managing class to help get information quick and simple. And safe. It uses the PHP PDO class and prepared statements to interact with a MySQL database. No SQL writing required but if you need it, you can do that as well.
 
 - [Introduction](sequel/readme.md)
 - [Select](sequel/Select.md) 
