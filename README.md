@@ -19,7 +19,7 @@ Welcome to Vesper PHP. This framework is aimed to be an easy to use and lightwei
 
 ### Frontier
 
-[Frontier](frontier/Frontier.md) is the simple yet elegant templating engine within Vesper PHP that allows you to use PHP in its [html templates](frontier/Views.md). The template files are compiled into PHP files and cached in a separate folder. With its easy way of requesting the template and adding variables Frontier makes building websites quick really easy.
+[Frontier](frontier/readme.md) is the simple yet elegant templating engine within Vesper PHP that allows you to use PHP in its [html templates](frontier/Views.md). The template files are compiled into PHP files and cached in a separate folder. With its easy way of requesting the template and adding variables Frontier makes building websites quick really easy.
 
 ## Bulma
 
@@ -30,7 +30,7 @@ Welcome to Vesper PHP. This framework is aimed to be an easy to use and lightwei
 
 ## Sequel
 
-[Sequel](sequel/Introduction.md) is a one-stop database managing class to help get information quick and simple. And safe. It uses the PHP PDO class and prepared statements to interact with a MySQL database. No SQL writing required but if you need it, you can do that as well.
+[Sequel](sequel/reame.md) is a one-stop database managing class to help get information quick and simple. And safe. It uses the PHP PDO class and prepared statements to interact with a MySQL database. No SQL writing required but if you need it, you can do that as well.
 
 - [Introduction](sequel/readme.md)
 - [Select](sequel/Select.md) 
