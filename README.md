@@ -18,7 +18,7 @@ Welcome to Vesper PHP. This framework is aimed to be an easy to use and lightwei
 
 ### Frontier
 
-[Frontier](frontier/readme.md) is the simple yet elegant templating engine within Vesper PHP that allows you to use PHP in its [html templates](frontier/Views.md). The template files are compiled into PHP files and cached in a separate folder. With its easy way of requesting the template and adding variables Frontier makes building websites quick really easy.
+[Frontier](frontier/readme.md) is the simple yet elegant templating engine within Vesper PHP that allows you to use PHP in its [html templates](frontier/Views.md). The template files are compiled into PHP files and cached in a separate folder. With its easy way of requesting the template and adding variables Frontier makes building websites quick really easy. Frontier has it's own sass/css template. Templated blocks will be available in the future.
 
 ### Sequel
 
@@ -35,13 +35,6 @@ Email sending handler.
 - Building a list
 - List parameters
 - [Csrf protection](formality/Csrf.md)
-
-## Bulma
-
-- Basics of Bulma
-- Vesper additions
-- Modify variables
-- Building new files
 
 ## Interact
 
