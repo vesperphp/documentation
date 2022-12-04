@@ -10,7 +10,7 @@ Sequel has a neat `paginate()` method that can be accessed by the [Select.md] qu
 ```
 Paginate::front($results);
 ```
-This method returns a `bootstrap 5` pagination block.
+This method returns a pagination block.
 
 ### build()
 ```
@@ -27,16 +27,9 @@ You can copy/paste the example code below to get started.
 
 Within the controller method we build a query like normal and pass the results in Frontier.
 ```
-$posts = Sequel::select('posts')->paginate($this->path)->sort('id', 'DESC')->join('users')->do();
+$posts = Sequel::select('posts')->paginate()->sort('id', 'DESC')->join('users')->do();
 Frontier::view('paginate.html',['posts' => $posts]);
 ```
-To make pagination available for this page add an extra row to the `init/routes/*.php` file of your choice.
-```
-$route->get('test/', HomeController::class, 'test');
-$route->get('test/{paginate}', HomeController::class, 'test'); // activate pagination
-```
-In this case we want the /test page to work with and without a pagination number.
-
 
 ### Frontier example
 
