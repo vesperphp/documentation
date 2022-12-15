@@ -11,7 +11,7 @@ Vesper CSS is based around exponential ratio's. This means that the base value d
 
 ## Margin, Padding & Index (x,y,z)
 
-The base (1 = 5px) value is set in variables.scss.
+The base value is set in variables.scss. This works with exponential ratio's. So if you set 5 in the variables it will become 5, 10, 20, 40 etc..
 
 ### Margin
 
