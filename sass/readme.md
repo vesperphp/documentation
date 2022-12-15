@@ -70,6 +70,9 @@ You can also force the link colour to a certain style:
 
 ## Text
 
+`font-plain` the plain text (`p`, `input` etc..)
+`font-header` the header font (also from `h1` to `h5`)
+
 ### Sizes
 
 `text` is the base text of 16px (set in variables.scss)
