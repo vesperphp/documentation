@@ -35,8 +35,14 @@ The base value is set in variables.scss. This works with exponential ratio's. So
 - `p-t-1` to `p-t-9` is a padding on the top side.
 - `p-b-1` to `p-b-9` is a padding on the bottom.
 
-### Index
+### Index & Position
 
+- `sticky`, `relative`, `absolute` & `fixed` are classes you can use to change objects on a positional level.
+- `pos-l-1` to `pos-l-9` is a padding on the left side.
+- `pos-r-1` to `pos-r-9` is a padding on the right side.
+- `pos-t-1` to `pos-t-9` is a padding on the top side.
+- `pos-b-1` to `pos-b-9` is a padding on the bottom.
+- `pos-t-auto` sets the value to auto. This works for all the other sides as well.
 - `z-0` to `z-9` are z-index values from 0 to 90.
 - `zm-0` to `zm-9` are z-index values from  -0 to 90.
 
