@@ -43,3 +43,49 @@ The base value is set in variables.scss. This works with exponential ratio's. So
 ### Useful helpers
 
 `m-auto` is the same as `margin: auto 0;` and centers your block.
+
+## Colours
+
+### Background colours
+
+`primary` primary background
+`secondary` primary background
+`black` black background
+`white` white background
+`dark` dark background (grey)
+`light` light background (grey)
+
+### Text colours
+
+`text-primary` primary text colour
+`text-secondary` primary text colour
+`text-black` black text colour
+`text-white` white text colour
+`text-dark` dark text colour (grey)
+`text-light` light text colour (grey)
+`text-inherit` inherit a contrasting colour from the background colour when available
+
+You can also force the link colour to a certain style:
+`link-primary`, `link-secondary`, `link-black`, `link-white`, `link-dark`,`link-light`
+
+## Text
+
+### Sizes
+
+`text` is the base text of 16px (set in variables.scss)
+`text-1` is one up: 18, (16 + 2) (h5)
+`text-2` is two up: 20, (16 + 4) (h4)
+`text-3` is two up: 24, (16 + 8) (h3)
+`text-4` is two up: 32, (16 + 16) (h2)
+`text-5` is two up: 48, (16 + 32) (h1)
+`text-6` is two up: 80, (16 + 64) 
+
+### Styles
+
+`bold`, `regular`, `light`, `italic`, `underline`
+
+## Grid
+
+## Lists
+
+## Components
