@@ -93,7 +93,7 @@ You can also force the link colour to a certain style:
 
 ### Sizes
 
-- `text` is the base text of 16px (set in variables.scss)
+- `<p>` is the base text of 16px (set in variables.scss)
 - `text-1` is one up: 18, (16 + 2) (h5)
 - `text-2` is two up: 20, (16 + 4) (h4)
 - `text-3` is two up: 24, (16 + 8) (h3)
