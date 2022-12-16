@@ -1,5 +1,14 @@
 # Vesper CSS
 
+## Breakpoints
+
+The breakpoints are set in the variables file and has four values. More values can be added later.
+- The breakpoint name.
+- The set viewport width.
+- The corresponding wrapper width.
+- The scaling ratio of margins and font sizes.
+The idea is that we work from mobile up to desktop since most web applications are most useful if they work perfectly on mobile devices.
+
 ## Exponential ratio's
 
 Vesper CSS is based around exponential ratio's. This means that the base value doubles every increment. For example: 
@@ -15,33 +24,33 @@ The base value is set in variables.scss. This works with exponential ratio's. So
 
 ### Margin
 
-- `m-1` to `m-9` is a margin on all sides.
-- `m-y-1` to `m-y-9` is a margin on the y-axis (vertical).
-- `m-x-1` to `m-x-9` is a margin on the x-axis (horizontal).
+- `m-0` to `m-9` is a margin on all sides.
+- `m-y-0` to `m-y-9` is a margin on the y-axis (vertical).
+- `m-x-0` to `m-x-9` is a margin on the x-axis (horizontal).
 
-- `m-l-1` to `m-l-9` is a margin on the left side.
-- `m-r-1` to `m-r-9` is a margin on the right side.
-- `m-t-1` to `m-t-9` is a margin on the top side.
-- `m-b-1` to `m-b-9` is a margin on the bottom.
+- `m-l-0` to `m-l-9` is a margin on the left side.
+- `m-r-0` to `m-r-9` is a margin on the right side.
+- `m-t-0` to `m-t-9` is a margin on the top side.
+- `m-b-0` to `m-b-9` is a margin on the bottom.
 
 ### Padding
 
-- `p-1` to `p-9` is a padding on all sides.
-- `p-y-1` to `p-y-9` is a padding on the y-axis (vertical).
-- `p-x-1` to `p-x-9` is a padding on the x-axis (horizontal).
+- `p-0` to `p-9` is a padding on all sides.
+- `p-y-0` to `p-y-9` is a padding on the y-axis (vertical).
+- `p-x-0` to `p-x-9` is a padding on the x-axis (horizontal).
 
-- `p-l-1` to `p-l-9` is a padding on the left side.
-- `p-r-1` to `p-r-9` is a padding on the right side.
-- `p-t-1` to `p-t-9` is a padding on the top side.
-- `p-b-1` to `p-b-9` is a padding on the bottom.
+- `p-l-0` to `p-l-9` is a padding on the left side.
+- `p-r-0` to `p-r-9` is a padding on the right side.
+- `p-t-0` to `p-t-9` is a padding on the top side.
+- `p-b-0` to `p-b-9` is a padding on the bottom.
 
 ### Index & Position
 
 - `sticky`, `relative`, `absolute` & `fixed` are classes you can use to change objects on a positional level.
-- `pos-l-1` to `pos-l-9` is a padding on the left side.
-- `pos-r-1` to `pos-r-9` is a padding on the right side.
-- `pos-t-1` to `pos-t-9` is a padding on the top side.
-- `pos-b-1` to `pos-b-9` is a padding on the bottom.
+- `pos-l-0` to `pos-l-9` is a padding on the left side.
+- `pos-r-0` to `pos-r-9` is a padding on the right side.
+- `pos-t-0` to `pos-t-9` is a padding on the top side.
+- `pos-b-0` to `pos-b-9` is a padding on the bottom.
 - `pos-t-auto` sets the value to auto. This works for all the other sides as well.
 - `z-0` to `z-9` are z-index values from 0 to 90.
 - `zm-0` to `zm-9` are z-index values from  -0 to 90.
@@ -98,3 +107,18 @@ You can also force the link colour to a certain style:
 ## Lists
 
 ## Components
+
+### Buttons
+
+`button` is the most basic form of a button. It has some set values you can modify by adding classes. A html `<button>` tag has some preset properties but it can also be used on `<a href="#" class="button">My button</a>`
+- `icon-info` adds an info icon and aligns the text to the left. Other icons are at this moment: `mail`, `user`..
+
+### Flash messages
+
+Use `flash-warning` or other classes on a div to style the flash messages that appear on top of the page after a change. The colour names/ type names correspond with the available colours. So `flash-primary` is also usable for instance. You can also use icons by adding `icon-info` to the classlist. Other icons are at this moment: `mail`, `user`..
+
+```
+<div class="flash-warning icon-danger">
+    <p>My danger message</p>
+</div>
+```
