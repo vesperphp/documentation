@@ -84,7 +84,6 @@ There are also light and dark versions of every colour. You can access those by 
 - `text-white` white text colour
 - `text-dark` dark text colour (grey)
 - `text-light` light text colour (grey)
-- `text-inherit` inherit a contrasting colour from the background colour when available
 
 You can also force the link colour to a certain style:
 - `link-primary`, `link-secondary`, `link-black`, `link-white`, `link-dark`,`link-light`
