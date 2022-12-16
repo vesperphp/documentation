@@ -69,6 +69,10 @@ The base value is set in variables.scss. This works with exponential ratio's. So
 - `white` white background
 - `dark` dark background (grey)
 - `light` light background (grey)
+- `danger` background (red)
+- `warning` background (yellow)
+- `success` background (green)
+- `info` background (blue)
 
 There are also light and dark versions of every colour. You can access those by using `primary-l` or `primary-d`. This will of course work with every preset colour.
 
