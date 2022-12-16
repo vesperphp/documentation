@@ -2,12 +2,12 @@
 
 ## Breakpoints
 
-The breakpoints are set in the variables file and has four values. More values can be added later.
+The breakpoints are set in the variables file and has four values. More values can be added later. The idea is that we work from mobile up to desktop since most web applications are most useful if they work perfectly on mobile devices.
 - The breakpoint name.
 - The set viewport width.
 - The corresponding wrapper width.
 - The scaling ratio of margins and font sizes.
-The idea is that we work from mobile up to desktop since most web applications are most useful if they work perfectly on mobile devices.
+
 
 ## Exponential ratio's
 
